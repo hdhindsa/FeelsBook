@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">hsdhinds~FeelsBook</string>
+    <string name="Feelings_prompt">How are you feeling today?</string>
+    <string name="feelings_prompt">Feelings prompt</string>
+    <string name="Feeling1">Love</string>
+    <string name="Feeling2">Joy</string>
+    <string name="Feeling3">Surprise</string>
+    <string name="Feeling4">Anger</string>
+    <string name="Feeling5">Sadness</string>
+    <string name="Feeling6">Fear</string>
+    <string name="Comment">Add a comment</string>
+    <string name="Comment_id">Comments:  </string>
+    <string name="title_activity_comment">Comment</string>
+    <string name="Add">Add</string>
+    <string name="skip">Skip</string>
+    <string name="add_emotion">Add Emotion</string>
+    <string name="TimeStamp">TIme Stamp</string>
+    <string name="dateTime">YYYY-MM-DDT00:00:00</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="countLove">Count Love = 0</string>
+    <string name="countJoy">Count Joy = 0</string>
+    <string name="countSurprise">Count Surprise = 0</string>
+    <string name="countFear">Count Fear = 0</string>
+    <string name="countAnger">Count Anger = 0</string>
+    <string name="countSadness">Count Sadness = 0</string>
+</resources>

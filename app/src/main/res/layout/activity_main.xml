@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/feeling_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Feelings_prompt"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/Feelings_prompt" />
+
+    <Button
+        android:id="@+id/buttonLove"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonJoy"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/Feeling1" />
+
+    <Button
+        android:id="@+id/buttonJoy"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAnger"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/Feeling2" />
+
+    <Button
+        android:id="@+id/buttonSurprise"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonAnger"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/Feeling3" />
+
+    <Button
+        android:id="@+id/buttonAnger"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling4"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFear"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/Feeling4" />
+
+    <Button
+        android:id="@+id/buttonSadness"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonFear"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/Feeling5" />
+
+    <Button
+        android:id="@+id/buttonFear"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="recordComment"
+        android:text="@string/Feeling6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/Feeling6" />
+
+</android.support.constraint.ConstraintLayout>
